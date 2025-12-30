@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "framework": "laravel",
     "functions": {
         "api/*.php": {
             "runtime": "vercel-php@0.7.1"
@@ -29,7 +28,6 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "VIEW_COMPILED_PATH": "/tmp",
         "SESSION_DRIVER": "cookie",
-        "LOG_CHANNEL": "stderr",
-        "DB_CONNECTION": "mysql"
+        "LOG_CHANNEL": "stderr"
     }
 }
